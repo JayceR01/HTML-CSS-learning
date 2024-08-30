@@ -1,0 +1,121 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en"> 
+  <head> 
+    <link rel="stylesheet" href="styles.css">   
+    <title id="title">Tribute Page</title>
+  </head>
+  <body>
+    <h1 id="title">Baldur's Gate 3</h1>
+    <main id="main">
+      <div id="img-div">
+        <div id="img-caption">The game that set new standards</div>
+        <img id="image" src="https://image.api.playstation.com/vulcan/ap/rnd/202302/2321/3098481c9164bb5f33069b37e49fba1a572ea3b89971ee7b.jpg"></img>
+        <div id="image"></div>        
+      </div>     
+      <div id="tribute-info">In 2023, Larian studios made history with a third game of the franchise</div>
+      <a id="tribute-link" target="_blank" href="https://tribute-page.freecodecamp.rocks/"></a>
+      <div id="tribute-link" href="https://tribute-page.freecodecamp.rocks/" target="_blank"></div>     
+    </main>
+    <h3>Baldur's Gate 3 Lore</h3>
+    <ul>
+      <li>Larian stuidos are the producers of BG3</li>
+      <li>Larian studios was founded in 1996 in Belgium</li>
+      <li>Baldur's Gate 3 was in production for approximately 6 years, starting in 2017</li>
+      <li>BG3 was announced in 2019, with Early Access starting in October of 2020</li>
+      <li>BG3 was released August 3, 2023, changing from its initial stated release for October of 2023</li>
+      <li>The previous games in the series were Baldur's Gate, released in 1998</li>
+      <li>The game following that was Baldur's Gate 2: Shadows of Amn which was released in 2000</li>
+      <li>Baldur's Gate 3 became a well renowned game, winning 20+ awards including Game of the Year, Best Multiplayer Game, Best RPG, and much more</li>
+    </ul>   
+  </body>
+  <footer>
+    <p> This is a tribute page just because I love gaming and this one was life changing. For more information on Larian stuidos and what they do, visit their website <a href="https://larian.com/">Larian</a></p>
+  </footer>
+</html
+
+** end of undefined **
+
+** start of undefined **
+
+img {
+  height: 100%;
+  width: auto;
+  overflow: hidden;
+  display: block;
+  background-color: white;
+}
+
+#image {
+  max-width: 100%;
+  height: auto;
+  justify-content: center;
+  margin: auto;
+  padding: auto;
+  width: 70%;
+  align-items: center;
+  border-radius: 40px;
+}
+
+#img-caption {
+  text-align: center;
+  font-weight: bold;
+  font-size: 17px;
+  color: orange;
+}
+
+
+#tribute-info {
+  text-align: center;
+  font-size: 17px;
+  color: orange;
+}
+
+h3 {
+  text-align: center;
+  background-color: #000078;
+}
+
+ul {
+  background-color: #000078;
+  font-size: 17px;
+}
+
+li {
+  margin-left: 70px;
+  margin-right: 70px;
+}
+
+h1 {
+  background-color: #000078;
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+body {
+  background-color: #000079;
+  color: white;
+}
+
+main {
+  background-color: white;
+  margin-right: 50px;
+  margin-left: 50px;
+}
+
+footer {
+  text-align: center;
+  color: white;
+  margin-right: 96px;
+  margin-left: 96px;
+
+}
+
+:visited {
+  color: white;
+}
+
+** end of undefined **
+
