@@ -1,0 +1,164 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Technical Documentation Page</title>
+    <link rel="stylesheet" href="styles.css"></link>
+  </head>  
+  <body>
+    <nav id="navbar">
+        <header class="leader">Great video games</header>
+          <ul>
+            <li>
+              <a class="nav-link" href="#Introduction">Introduction</a>
+            </li>
+            <li>
+              <a class="nav-link" href="#Dragon_Age">Dragon Age</a>
+            </li>
+            <li>
+              <a class="nav-link" href="#WoW">WoW</a>
+            </li>
+            <li>
+              <a class="nav-link" href="#Baldur's_Gate_3">Baldur's Gate 3</a>
+            </li>
+            <li>
+              <a class="nav-link" href="#Up_next">Up next</a>
+            </li>
+          </ul>
+    </nav>
+    <main id="main-doc">    
+      <section class="main-section" id="Introduction">
+        <header>Introduction</header>        
+        <p>This is one of the documents we are asked to do as part of freecodecamp while learning. (PS: There are some code elements we are required to have to complete the doc, but I am not using them. It is on purpose!)</p>
+        <p>I had a tough time trying to think about what to write about, so I am back to my favorite topic... video games</p>
+        <p>I am just going to go through some of my favorite video games and give some background on them, as well as talking about what I like about them. I will also include games I may be looking forward to.</p>
+        <li class="game-list">Dragon age series</li>
+        <li class="game-list">WoW</li>
+        <li class="game-list">Baldur's Gate 3</li>
+        <li class="game-list">The up and coming, hopefully greats</li>
+        <p></p>
+        <code></code>
+      </section> 
+      <section class="main-section" id="Dragon_Age">
+        <header>Dragon Age</header>
+        <code></code>
+        <p>Dragon Age: Origins is first on the list. The game was released in 2009. I did not play it till a few years after, but this was a beautiful experience while frustrating. The game is phenomenal and I believe everyone should play it, but it is clunky and has not aged perfectly in my opinion.</p>
+        <p>The next on the list is Dragon Age 2. It was released in 2011. This is going to be a bit controversial, but this may be my favorite one. The game is super smooth and aged pretty well. The story and characters are not as good as the original, but the game feel is really nice which always brings me back. No arcane warrior is always sad to see.</p>
+        <p>The last on the main list is Dragon Age Inquisition. The game was released in 2014 and had some seemingly mixed reviews with the use of the Frostbite engine. The game feels pretty nice to play, once you get passed early game. This one is probably the worst in the series to me, although it is not bad by any means. The others are just great, and the knight enchanter just can't replace the arcane warrior we all know and love.</p>  
+      </section>  
+      <section class = "main-section" id="WoW">
+        <header>WoW</header>
+        <code></code>
+        <p>World of Warcraft was released in November of 2004, when I was just 3 years old. I did not get to play it till I was quite a lot older, but I always used to watch my uncle and brother play, waiting for my chance.</p>
+        <p>This game is one of my favorites of all time. There is so much to do and the questing is so much fun. They recently mentioned that all classes will come to all races in the game. Because of this, I am waiting until I can be a night elf shaman before they get me to come back!</p>
+        <p>The war within DLC released very recently and people are very happy with it, saying that the game is returning to some of its former glory, and I really hope that is true.</p>
+      </section> 
+      <section class = "main-section" id="Baldur's_Gate_3">
+        <header>Baldur's Gate 3</header>
+        <code></code>
+        <p>This game right here, for anyone who has talked to me, knows this is my favorite game of all time. I truly think it is the best game to have come out, and its awards back that up.</p>
+        <p>BG3 came out August 3, 2023 and was in early access for years before then. After watching some of the gameplay, I couldn't help but hop on board close to the end of EA to see what all of the hype was about</p>
+        <p>Recently, an in game mod manager was added, making it easier for everyone to mod on the fly. They still have some kinks to work out, but once they do I will be diving right back in to put many... MANY more hours into it.</p>
+      </section> 
+      <section class = "main-section" id="Up_next">
+        <header>Up next</header>
+        <p></p>
+        <code></code>
+        <li class="game-list">First up and comer, is Fable 4</li>
+          <p>Fable 4 has a planned release date of 2025. There has only been one trailer out so far, which seemed to leave people pretty up in the air. I loved the other games in the series (mainly 2), so I hope they can bring the ideas back to that era. I am on PC now, so I am unable to play Fable 2 and that has bummed me out more times than one. I am very much looking forward to the release of Fable 4.</p>
+        <li class="game-list">Next on the list is Mass Effect 5</li>
+        <p>The reason this one is up here is because the initial 3 were very well liked, but Andromeda had fallen flat. The first 3 had amazing characters which were truly captivating, but Andromeda didn't hold that same weight. The plus for Andromeda though, were that it was a smooth game with interesting new ideas and abilities. I am hoping Mass Effect 5 can reel us back in with amazing characters, combined with great game feel.</p>
+        <li class="game-list">Last but certainly not least, is Elder Scrolls VI</li>
+        <p>Elder Scrolls 6 has no current release date, with many hoping it'll be here in 2028. That sounds so far away given that Skyrim came out 13 years ago, but if it lives up to the hype it could be revolutionary. I grew up on Oblivion and Skyrim, spending 100s of hours on each so as soon as I saw a trailer for The Elder Scrolls 6, I was hyped. With the flop of Starfield, I hope they can really handle their business with this next one.</p>
+      </section>
+    </main> 
+  </body>
+</html
+
+** end of undefined **
+
+** start of undefined **
+
+@media (prefers-reduced-motion: no preference) {
+  * {
+    scroll-behavior: smooth;
+  }
+}
+
+#navbar a {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+  display: block;
+  padding: 10px 30px;
+
+}
+
+html, body {
+  line-height: 1.5;
+}
+
+#navbar a:hover {
+  background-color: grey;
+}
+
+#main-doc {
+  display: block;
+  margin-right: 100px;
+  margin-left: 210px;
+
+}
+
+ul li {
+  color: black;
+  border-top: 1px solid;
+  list-style: none;
+  position: relative;
+  width: 100%;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0px;
+  overflow: hidden;
+  background-color: white;
+  color: black;
+  width: 200px;
+  height: 100%;
+  position: fixed;
+  margin-top: 50px;
+}
+
+.leader {
+  font-weight: bold;
+  margin-left: 20px;
+  position: fixed;
+  margin-top: 10px;
+}
+
+header {
+  font-weight: bold;
+  font-size: 20;
+}
+
+#navbar {
+  border-right: 2px solid;
+  color: black;
+  height: 100%;
+  position: fixed;
+  width: 200px
+}
+
+p {
+  margin-left: 10px;
+}
+
+.game-list {
+  margin-left: 20px;
+}
+
+
+
+** end of undefined **
+
